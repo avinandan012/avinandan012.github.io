@@ -1,0 +1,8 @@
+Add jar files which are not in maven central(https://mvnrepository.com/) https://stackoverflow.com/questions/59658820/download-jars-from-local-disk-space-to-m2-repository-using-pom-xml
+<dependency>    
+  <groupId>groupid</groupId>    
+  <artifactId>artifactid</artifactId>   
+  <version>1.0</version>    
+  <scope>system</scope> 
+  <systemPath>${basedir}\lib\JAR_NAME.jar</systemPath>  
+</dependency>
